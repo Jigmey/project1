@@ -6,6 +6,9 @@
 .n{
     text-align: center;
 }
+body{
+    background-color: #1d2226;
+}
 .mainCon{
     border: 2px solid black;
 }
@@ -17,27 +20,27 @@
 }
 .myName{
     font-size: 26px;
-    color: seashell;
+    color: white;
     font-weight: bolder;
     margin: 10px;
     position: absolute;
     text-align: left;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    background-color: rgb(61, 59, 59);
-    border: 2px solid seagreen;
+    background-color: #1d2226;
+    /* border: 2px solid seagreen; */
 }
 li, a{
     display: inline-block;
     padding: 14px;
-    color: seashell;
+    color: white;
     font-weight: bold;
     text-decoration: none;
-    border: 2px solid indianred;
+    /* border: 2px solid indianred; */
 }
 .bg1{
     background: url(../img/naruto.jpg) 
@@ -56,9 +59,11 @@ li, a{
     text-align: center;
     font-size: 55px;
     font-weight: bolder;
-    color: seashell;
+    color: white;
 }
 .aCon1{
+    background-color: #1d2226;
+    color: white;
     display: grid;
     grid-template-columns: 60% auto;
 }
@@ -69,16 +74,17 @@ li, a{
 }
 .info1{
     text-align: justify;
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 .pic1{
     display: flex;
     justify-content: center;
     align-self: center;
     position: absolute;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .profile{
+    margin-top: 40px;
     width: 200px;
     height: 200px;
 }
@@ -90,11 +96,14 @@ li, a{
 }
 .bPic1{
     margin: 10px 20px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .bPic2{
     margin: 10px 10px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
+}
+.h2{
+    padding: 20px;
 }
 .aCon2{
     display: grid;
@@ -102,36 +111,24 @@ li, a{
     grid-template-rows: 520px;
 }
 .bCon2{
-    background-color: lightcoral;
+    background-color: #1d2226;
     border: 1px solid black;
 }
 .test{
     margin: 80% 0;
     border: 1px solid black;
 }
-.bg2{
-    background: url(../img/sasuke.jpg) 
-    repeat fixed 100%;
+.show{
+    padding: 75px;
+    width: 200px;
+    height: 200px;
 }
-.bg2-inner{
-    padding: 25%;
-    /* some other stuff needs to be here
-    maybe contrasts? */
-}
-.bgTxt{
-    text-align: center;
-    font-size: 55px;
-    font-weight: bolder;
-    color: seashell;
-    background-color: slateblue;
-    border: 3px solid white;
-}
-.footer{
-    text-align: center;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 200px;
-}
+.projects:hover .show {
+    width: 1100px;
+    height: 1100px;
+  }
+
+
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (min-width: 576px) {
     
